@@ -15,9 +15,11 @@ func main(){
 	name:= "james bond"
 	salary:=102548.55
 	comp := 10 + 32i
+	ima :=10+20i
 	paytax:=false
 	var point *int64
 	fmt.Printf("%p\n",point)
+	fmt.Println(comp/ima,comp*ima,comp+ima,comp-ima)
 	fmt.Printf("%g\n",comp)
     fmt.Printf("%s is %g years profit. he pay tax %t\n", name ,salary ,paytax)
 	// %v format will give the default value given 
