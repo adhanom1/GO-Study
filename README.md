@@ -1,2 +1,5 @@
 # GO-Study
 go programming language self study 
+Go, or Golang as it is often called, was developed by Google employees—chiefly longtime Unix guru and Google distinguished engineer Rob Pike—but it’s not strictly speaking a “Google project.” Rather, Go is developed as a community-led open source project, spearheaded by leadership that has strong opinions about how Go should be used and the direction the language should take.
+Go is meant to be simple to learn, straightforward to work with, and easy to read by other developers. Go does not have a large feature set, especially when compared to languages like C++. Go is reminiscent of C in its syntax, making it relatively easy for longtime C developers to learn. That said, many features of Go, especially its concurrency and functional programming features, harken back to languages such as Erlang.
+As a C-like language for building and maintaining cross-platform enterprise applications of all sorts, Go has much in common with Java. And as a means of enabling rapid development of code that might run anywhere, you could draw a parallel between Go and Python, though the differences are far greater than the similarities.
