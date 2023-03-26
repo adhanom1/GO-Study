@@ -16,10 +16,14 @@ func main(){
 	salary:=102548.55
 	comp := 10 + 32i
 	ima :=10+20i
+	//addition:=comp+ima
+	//subtraction:=comp-ima
+	division:=comp/ima
+	multiplication:=comp*ima
 	paytax:=false
 	var point *int64
 	fmt.Printf("%p\n",point)
-	fmt.Println(comp/ima,comp*ima,comp+ima,comp-ima)
+	fmt.Printf("%g division of complex number %g multiplication of complex number ",division,multiplication)
 	fmt.Printf("%g\n",comp)
     fmt.Printf("%s is %g years profit. he pay tax %t\n", name ,salary ,paytax)
 	// %v format will give the default value given 
