@@ -6,5 +6,5 @@ func init(){
 
 }
 func main(){
-	fmt.Println("hello am from main fuction ")
+	fmt.Println("hello am from main function ")
 }
