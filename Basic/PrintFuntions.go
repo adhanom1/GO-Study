@@ -22,6 +22,8 @@ func main(){
 	multiplication:=comp*ima
 	paytax:=false
 	var point *int64
+	var f float64=10e9
+	fmt.Printf("%f",f)
 	fmt.Printf("%p\n",point)
 	fmt.Printf("%g division of complex number %g multiplication of complex number ",division,multiplication)
 	fmt.Printf("%g\n",comp)
