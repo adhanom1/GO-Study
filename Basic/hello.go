@@ -1,11 +1,15 @@
 package main
+
 import "fmt"
+
 const ak = "hello am there "
 
-func init(){
+func init() {
 	fmt.Println(ak)
 }
-func main(){
-	_,a:=5,40
-	fmt.Println("hello world",a)
+func main() {
+	var q byte = 'A'
+	_, a := 5, 40
+	fmt.Println("hello world", a)
+	fmt.Println(q)
 }
