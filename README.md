@@ -17,3 +17,30 @@ We have observed that in a decade, the hardware and processing configuration is 
 Like threading consumes 1MB whereas Goroutine consumes 2KB of memory, hence at the same time, we can have millions of goroutine triggered. 
 So the above-discussed point makes golang a strong language that handles concurrency like C++ and Java. 
 
+
+Advantages and Disadvantages of Go Language
+
+Advantages:  
+
+->Flexible- It is concise, simple and easy to read.
+->Concurrency- It allows multiple process running simultaneously and effectively.
+->Quick Outcome- Its compilation time is very fast.
+->Library- It provides a rich standard library.
+->Garbage collection- It is a key feature of go. Go excels in giving a lot of control over memory allocation and has dramatically reduced latency in the most recent versions of the garbage collector.
+It validates for the interface and type embedding.
+Concurrency: Go provides excellent support for concurrency, making it easy to write code that can run multiple tasks simultaneously. This is achieved through Goroutines and Channels, which allow you to write code that can run multiple operations at the same time.
+Performance: Go is designed to be fast and efficient, with a focus on performance and low memory usage. This makes it well-suited for building high-performance network services, as well as for solving complex computational problems.
+Simplicity: Go has a straightforward syntax and a simple type system, making it easy to learn and use, even for people with no prior programming experience.
+Garbage Collection: Go has built-in garbage collection, which automatically manages memory for you. This eliminates the need for manual memory management, reducing the likelihood of memory leaks and other bugs that can arise from manual memory management.
+Statically Typed: Go is a statically typed language, which means that types are determined at compile time. This provides stronger type safety and makes 
+it easier to catch type-related bugs before they occur.
+
+
+
+Disadvantages:  
+
+It has no support for generics, even if there are many discussions about it.
+The packages distributed with this programming language is quite useful but Go is not so object-oriented in the conventional sense.
+There is absence of some libraries especially a UI tool kit.
+Limited Object-Oriented Features: Go does not have full-fledged object-oriented features like inheritance and polymorphism. This can make it more difficult to write complex programs, especially for developers who are used to traditional object-oriented languages.
+
