@@ -1,6 +1,6 @@
 # GO-Study
 
-go programming language self study
+                                         go programming language self study
 
 Go, or Golang as it is often called, was developed by Google employees—chiefly longtime Unix guru and Google distinguished engineer Rob Pike—but it’s not strictly speaking a “Google project.” Rather, Go is developed as a community-led open source project, spearheaded by leadership that has strong opinions about how Go should be used and the direction the language should take.
 
@@ -10,8 +10,9 @@ As a C-like language for building and maintaining cross-platform enterprise appl
 Go has been compared to scripting languages like Python in its ability to satisfy many common programming needs. Some of this functionality is built into the language itself, such as “goroutines” for concurrency and threadlike behavior, while additional capabilities are available in Go standard library packages, like Go’s http package. Like Python, Go provides automatic memory management capabilities including garbage collection.
 Unlike scripting languages such as Python, Go code compiles to a fast-running native binary. And unlike C or C++, Go compiles extremely fast—fast enough to make working with Go feel more like working with a scripting language than a compiled language. Further, the Go build system is less complex than those of other compiled languages. It takes few steps and little bookkeeping to build and run a Go project.
 
+                                                      Hardware Limitation
 
-                                                                Hardware  Limitation
+                                                                
 
 We have observed that in a decade, the hardware and processing configuration is changing at a very slow rate. In 2004, P4 was having the clock speed of 3.0 GHz and now in 2018, Macbook pro has the clock speed of Approx (2.3Ghz v 2.66Ghz). To speed up, the functionality we use more processors, but using more processor the cost also increases. And due to this we use limited processors and using limited processor we have a heavy programming language whose threading takes more memory and slows down the performance of our system. Hence, to overcome such problem Golang has been designed in such a way that instead of using threading it uses Goroutine, which is similar to threading but consumes very less memory. 
 Like threading consumes 1MB whereas Goroutine consumes 2KB of memory, hence at the same time, we can have millions of goroutine triggered. 
@@ -46,8 +47,9 @@ Limited Object-Oriented Features: Go does not have full-fledged object-oriented 
 No Generics: Go does not have built-in support for generics, which makes it difficult to write reusable code.
 Immature Standard Library: Go’s standard library is relatively new and still maturing, which can make it difficult to find the tools you need for a particular task.
 
-                                                      Features of go language 
+                                        feature of go programming language 
 
+                                                     
 Language Design: The designers of the language made a conscious purpose to keep the language simple and easy to understand. The entire detailing is in a few pages and some interesting design decisions were made through Object-Oriented support in the language.Towards this, the language is opinionated and recommends an idiomatic way of achieving things. It prefers Composition over Inheritance. In Go Language, “Do More with Less” is the mantra.
 
 Package Management: Go merges modern day developer workflow of working with Open Source projects and includes that in the way it manages external packages. Support is provided directly in the tooling to get external packages and publish your own packages in a set of easy commands.
