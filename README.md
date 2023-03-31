@@ -22,11 +22,11 @@ Advantages and Disadvantages of Go Language
 
 Advantages:  
 
-->Flexible- It is concise, simple and easy to read.
-->Concurrency- It allows multiple process running simultaneously and effectively.
-->Quick Outcome- Its compilation time is very fast.
-->Library- It provides a rich standard library.
-->Garbage collection- It is a key feature of go. Go excels in giving a lot of control over memory allocation and has dramatically reduced latency in the most recent versions of the garbage collector.
+Flexible- It is concise, simple and easy to read.
+Concurrency- It allows multiple process running simultaneously and effectively.
+Quick Outcome- Its compilation time is very fast.
+Library- It provides a rich standard library.
+Garbage collection- It is a key feature of go. Go excels in giving a lot of control over memory allocation and has dramatically reduced latency in the most recent versions of the garbage collector.
 It validates for the interface and type embedding.
 Concurrency: Go provides excellent support for concurrency, making it easy to write code that can run multiple tasks simultaneously. This is achieved through Goroutines and Channels, which allow you to write code that can run multiple operations at the same time.
 Performance: Go is designed to be fast and efficient, with a focus on performance and low memory usage. This makes it well-suited for building high-performance network services, as well as for solving complex computational problems.
@@ -43,4 +43,7 @@ It has no support for generics, even if there are many discussions about it.
 The packages distributed with this programming language is quite useful but Go is not so object-oriented in the conventional sense.
 There is absence of some libraries especially a UI tool kit.
 Limited Object-Oriented Features: Go does not have full-fledged object-oriented features like inheritance and polymorphism. This can make it more difficult to write complex programs, especially for developers who are used to traditional object-oriented languages.
+No Generics: Go does not have built-in support for generics, which makes it difficult to write reusable code.
+Immature Standard Library: Go’s standard library is relatively new and still maturing, which can make it difficult to find the tools you need for a particular task.
+
 
