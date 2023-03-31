@@ -46,4 +46,15 @@ Limited Object-Oriented Features: Go does not have full-fledged object-oriented 
 No Generics: Go does not have built-in support for generics, which makes it difficult to write reusable code.
 Immature Standard Library: Go’s standard library is relatively new and still maturing, which can make it difficult to find the tools you need for a particular task.
 
+                                                      Features of go language 
 
+Language Design: The designers of the language made a conscious purpose to keep the language simple and easy to understand. The entire detailing is in a few pages and some interesting design decisions were made through Object-Oriented support in the language.Towards this, the language is opinionated and recommends an idiomatic way of achieving things. It prefers Composition over Inheritance. In Go Language, “Do More with Less” is the mantra.
+
+Package Management: Go merges modern day developer workflow of working with Open Source projects and includes that in the way it manages external packages. Support is provided directly in the tooling to get external packages and publish your own packages in a set of easy commands.
+Powerful standard library: Go has powerful standard library, which is distributed as packages.
+
+Static Typing:Go is static typed language. So, in this compiler not just work on compiling the code successfully but also ensures on type conversions and compatibility. Because of this feature Go avoid all those problems which we face in dynamically typed languages.
+
+Testing Support: Go provides us the unit testing features by itself i.e., a simple mechanism to write your unit test parallel with your code because of this you can understand you code coverage by your own tests. And that can be easily used in generating your code documentation as an example.
+
+Platform Independent: Go language is just like Java language as it support platform independency. Due to its modular design and modularity i.e., the code is compiled and is converted into binary form which is as small as possible and hence, it requires no dependency. Its code can be compiled in any platform or any server and application you work on.
