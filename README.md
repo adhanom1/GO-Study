@@ -11,7 +11,7 @@ Go has been compared to scripting languages like Python in its ability to satisf
 Unlike scripting languages such as Python, Go code compiles to a fast-running native binary. And unlike C or C++, Go compiles extremely fast—fast enough to make working with Go feel more like working with a scripting language than a compiled language. Further, the Go build system is less complex than those of other compiled languages. It takes few steps and little bookkeeping to build and run a Go project.
 
 
-                                                                  Hardware Limitations
+                                                                Hardware  Limitation
 
 We have observed that in a decade, the hardware and processing configuration is changing at a very slow rate. In 2004, P4 was having the clock speed of 3.0 GHz and now in 2018, Macbook pro has the clock speed of Approx (2.3Ghz v 2.66Ghz). To speed up, the functionality we use more processors, but using more processor the cost also increases. And due to this we use limited processors and using limited processor we have a heavy programming language whose threading takes more memory and slows down the performance of our system. Hence, to overcome such problem Golang has been designed in such a way that instead of using threading it uses Goroutine, which is similar to threading but consumes very less memory. 
 Like threading consumes 1MB whereas Goroutine consumes 2KB of memory, hence at the same time, we can have millions of goroutine triggered. 
