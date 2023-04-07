@@ -12,7 +12,7 @@ we will se three function that are basic like
 
 	         hasprefix function with two input ( the string ,specific given value string we have been given)
 			 hassuffix function with two input (the string , specific given value to compare with the string we have on hand )
-			 contains  a function to search for specific character or string on given string
+			 contains  a function to search for specific character or substring on given string
 */
 func main() {
 	st := "hello world how are you ?"
