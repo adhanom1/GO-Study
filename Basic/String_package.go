@@ -10,9 +10,10 @@ import (
 
 we will se three function that are basic like
 
-	         hasprefix function with two input ( the string ,specific given value string we have been given)
-			 hassuffix function with two input (the string , specific given value to compare with the string we have on hand )
-			 contains  a function to search for specific character or substring on given string
+		         hasprefix function with two input ( the string ,specific given value string we have been given)
+				 hassuffix function with two input (the string , specific given value to compare with the string we have on hand )
+				 contains  a function to search for specific character or substring on given string
+	             index function return the sub string starting point
 */
 func main() {
 	st := "hello world how are you ?"
@@ -21,4 +22,6 @@ func main() {
 	fmt.Println(strings.HasPrefix(st, "world"))
 	fmt.Println(strings.HasSuffix(st, "?"))
 	fmt.Println(strings.Contains(st, "how"))
+	fmt.Println(strings.Index(st, "how"))
+	fmt.Println(strings.LastIndex(st, "how"))
 }
