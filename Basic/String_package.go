@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
+	"time"
 )
 
 /*
@@ -23,6 +24,7 @@ we will se three function that are basic like
 								 Split  function
 */
 func main() {
+	T := time.Now()
 	st := "Hello World | How are you ?"
 	fmt.Printf("is the string %s has prefix of %s", st, strings.HasPrefix(st, "He"))
 	fmt.Println(strings.HasPrefix(st, "He"))
@@ -49,4 +51,11 @@ func main() {
 	fmt.Println()
 	str3 := strings.Join(str2, "james bond")
 	fmt.Printf("sl2 joined by ;: %s\n", str3)
+	i := "99.5"
+	j := string(i)
+	fmt.Println(j)
+	T2 := time.Minute
+	fmt.Println(T)
+	fmt.Println(T2)
+
 }
