@@ -22,4 +22,11 @@ func main() {
 	v = "adhanom"
 	fmt.Println(&intr, &ints)
 	fmt.Println(Float, v, ints)
+
+	var i1 = 5
+	fmt.Printf("An integer: %d, its location in memory: %p\n", i1, &i1)
+	var intP *int
+	intP = &i1
+	fmt.Printf("The value at memory location %p is %d\n", intP, *intP)
+
 }
