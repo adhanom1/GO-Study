@@ -21,7 +21,7 @@ func main() {
 	v := *Float
 	v = "adhanom"
 	fmt.Println(&intr, &ints)
-	fmt.Println(Float, v, ints)
+	fmt.Println(Float, *Float, v, ints)
 
 	var i1 = 5
 	fmt.Printf("An integer: %d, its location in memory: %p\n", i1, &i1)
