@@ -72,4 +72,5 @@ Go does not support custom types through classes but structs. Structs in Golang 
                                            Encapsulation
 It means hiding sensitive data from users. In Go, encapsulation is implemented by capitalizing fields, methods, and functions which makes them public. When the structs, fields, or functions are made public, they are exported on a package level. Some examples of public and private members are:
 
-
+                                                Inheritance
+When a class acquires the properties of its superclass then we can say it is inheritance. Here, subclass/child class are the terms used for the class which acquire properties. For this one, one must use a struct to achieve inheritance in Golang. Here, users have to compose using structs to form the other objects.
