@@ -66,11 +66,14 @@ Platform Independent: Go language is just like Java language as it support platf
 
 Object-oriented programming is a programming paradigm which uses the idea of “objects” to represent data and methods. Go does not strictly support object orientation but is a lightweight object Oriented language. Object Oriented Programming in Golang is different from that in other languages like C++ or Java due to factors mentioned below:
 
-                                               Struct
+                                                   Struct
 Go does not support custom types through classes but structs. Structs in Golang are user-defined types that hold just the state and not the behavior. Structs can be used to represent a complex object comprising more than one key-value pairs. We can add functions to the struct that can add behavior to it.
-
-                                           Encapsulation
+ 
+                                                Encapsulation
 It means hiding sensitive data from users. In Go, encapsulation is implemented by capitalizing fields, methods, and functions which makes them public. When the structs, fields, or functions are made public, they are exported on a package level. Some examples of public and private members are:
 
-                                                Inheritance
+                                                 Inheritance
 When a class acquires the properties of its superclass then we can say it is inheritance. Here, subclass/child class are the terms used for the class which acquire properties. For this one, one must use a struct to achieve inheritance in Golang. Here, users have to compose using structs to form the other objects.
+
+                                                  Interfaces
+Interfaces are types that have multiple methods. Objects that implement all the methods of the interface automatically implement the interface, i.e., interfaces are satisfied implicitly. By treating objects of different types in a consistent way, as long as they stick to one interface, Golang implements polymorphism
