@@ -10,21 +10,21 @@
 Go is influenced by C (especially the Plan 9 dialect but with an emphasis on greater simplicity and safety. It consists of:
 
 A syntax and environment adopting patterns more common in dynamic languages:
-                    Optional concise variable declaration and initialization through type inference (x := 0 instead of int x = 0; or var x = 0;)
+Optional concise variable declaration and initialization through type inference (x := 0 instead of int x = 0; or var x = 0;)
                     
-                   Fast compilation
+Fast compilation
                    
-                   Remote package management (go get) and online package documentation
+Remote package management (go get) and online package documentation
                    
-                   Distinctive approaches to particular problems:
+Distinctive approaches to particular problems:
                    
-                   Built-in concurrency primitives: light-weight processes (goroutines), channels, and the select statement
+Built-in concurrency primitives: light-weight processes (goroutines), channels, and the select statement
                    
-                   An interface system in place of virtual inheritance, and type embedding instead of non-virtual inheritance
+An interface system in place of virtual inheritance, and type embedding instead of non-virtual inheritance
                    
-                   A toolchain that, by default, produces statically linked native binaries without external Go dependencies
+A toolchain that, by default, produces statically linked native binaries without external Go dependencies
                    
-                   A desire to keep the language specification simple enough to hold in a programmer's head,in part by omitting features that are                            common in similar languages.                                        
+A desire to keep the language specification simple enough to hold in a programmer's head,in part by omitting features that are common in similar languages.                                        
 
 Go is meant to be simple to learn, straightforward to work with, and easy to read by other developers. Go does not have a large feature set, especially when compared to languages like C++. Go is reminiscent of C in its syntax, making it relatively easy for longtime C developers to learn. That said, many features of Go, especially its concurrency and functional programming features, harken back to languages such as Erlang.
 As a C-like language for building and maintaining cross-platform enterprise applications of all sorts, Go has much in common with Java. And as a means of enabling rapid development of code that might run anywhere, you could draw a parallel between Go and Python, though the differences are far greater than the similarities.
