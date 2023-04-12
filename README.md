@@ -16,8 +16,6 @@ A syntax and environment adopting patterns more common in dynamic languages:
 Optional concise variable declaration and initialization through type inference (x := 0 instead of int x = 0; or var x = 0;)
 
 
-
-                    
 Fast compilation
                    
 Remote package management (go get) and online package documentation
