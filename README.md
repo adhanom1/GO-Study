@@ -41,7 +41,7 @@ Go has a number of built-in types, including numeric ones (byte, int64, float32,
 
 For each type T and each non-negative integer constant n, there is an array type denoted [n]T; arrays of differing lengths are thus of different types. Dynamic arrays are available as "slices", denoted []T for some type T. These have a length and a capacity specifying when new memory needs to be allocated to expand the array. Several slices may share their underlying memory
 
-Pointers are available for all types, and the pointer-to-T type is denoted *T. Address-taking and indirection use the & and * operators, as in C, or happen implicitly through the method call or attribute access syntax.There is no pointer arithmetic,[e] except via the special unsafe.Pointer type in the standard library.
+Pointers are available for all types, and the pointer-to-T type is denoted *T. Address-taking and indirection use the & and * operators, as in C, or happen implicitly through the method call or attribute access syntax.There is no pointer arithmetic except via the special unsafe.Pointer type in the standard library.
 
 For a pair of types K, V, the type map[K]V is the type of hash tables mapping type-K keys to type-V values. Hash tables are built into the language, with special syntax and built-in functions. chan T is a channel that allows sending values of type T between concurrent Go processes.
 
