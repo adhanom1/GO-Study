@@ -104,7 +104,7 @@ object-oriented programming is a programming paradigm which uses the idea of “
                                                    Struct
 Go does not support custom types through classes but structs. Structs in Golang are user-defined types that hold just the state and not the behavior. Structs can be used to represent a complex object comprising more than one key-value pairs. We can add functions to the struct that can add behavior to it.
  
-                                                Encapsulation
+                                                  Encapsulation
 It means hiding sensitive data from users. In Go, encapsulation is implemented by capitalizing fields, methods, and functions which makes them public. When the structs, fields, or functions are made public, they are exported on a package level. Some examples of public and private members are:
 
                                                  Inheritance
