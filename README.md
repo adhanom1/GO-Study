@@ -99,6 +99,15 @@ Testing Support: Go provides us the unit testing features by itself i.e., a simp
 Platform Independent: Go language is just like Java language as it support platform independency. Due to its modular design and modularity i.e., the code is compiled and is converted into binary form which is as small as possible and hence, it requires no dependency. Its code can be compiled in any platform or any server and application you work on.
 
 
+                                                     Installation of GoLang
+Here are the general steps for installing GoLang:
+
+Go to the official GoLang website and download the installer for your operating system. The downloads page will automatically detect your OS and provide the appropriate download link.
+Next, run the installer and follow the on-screen instructions. The installer will guide you through installing GoLang on your system, including choosing an installation directory and setting environment variables.
+Verify that GoLang programming language has been installed correctly by opening the terminal and running the following command: go version. This should display the version of Go language that you have installed.
+After installing GoLang, you can begin writing and running Go programs with a text editor and GoLang's command-line tools. You can also use an integrated development environment (IDE) with the appropriate GoLang plugin, such as Visual Studio Code, GoLand, or Eclipse.
+
+
 object-oriented programming is a programming paradigm which uses the idea of “objects” to represent data and methods. Go does not strictly support object orientation but is a lightweight object Oriented language. Object Oriented Programming in Golang is different from that in other languages like C++ or Java due to factors mentioned below:
 
                                                    Struct
