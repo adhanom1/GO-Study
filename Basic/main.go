@@ -21,8 +21,8 @@ func main() {
 	Casting.Adhanom()
 	var ad hotdog = 50
 	var animal race = "lion"
-	animals := string(ad)
-	fmt.Printf("%t\n", animals)
+	animal := string(ad)
+	fmt.Printf("%t\n", animal)
 	fmt.Println(ad)
 	fmt.Printf("%T\n", ad)
 	fmt.Println(animal)
