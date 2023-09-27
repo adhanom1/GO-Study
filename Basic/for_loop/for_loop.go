@@ -9,4 +9,9 @@ func main() {
 
 	}
 	fmt.Println(sum)
+	// with out puting init and post statement those two are optional
+	for sum < 10 {
+		sum += sum
+	}
+	fmt.Println(sum)
 }
