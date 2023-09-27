@@ -19,4 +19,9 @@ func main() {
 		sum += sum
 	}
 	fmt.Println(sum)
+	/*
+		this loop will go for ever with out terminating
+		for {
+		}
+	*/
 }
