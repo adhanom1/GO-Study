@@ -14,6 +14,7 @@ func main() { // the main function is there the program written start executed
 	name, old := swap("James", 26)
 	fmt.Println(name, old)
 	fmt.Println(adds(15, 16))
+	fmt.Println(split(10))
 }
 
 func add(a, b int) int {
@@ -27,4 +28,9 @@ func swap(name string, age int) (string, int) {
 func adds(a, b int) int {
 	sum := a + b
 	return sum
+}
+func split(sum float32) (x, y float32) {
+	x = sum * 4 / 9
+	y = sum - x
+	return
 }
