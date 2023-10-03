@@ -16,6 +16,7 @@ func main() {
 	p := &v
 	p.first_name = "robel"
 	fmt.Println(p)
+	fmt.Println(v)
 	fmt.Println(v.first_name)
 	fmt.Println(v.age)
 
