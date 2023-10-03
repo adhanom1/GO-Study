@@ -3,15 +3,17 @@ package main
 import "fmt"
 
 type vertex struct {
-	X int
-	y int
-	z float64
+	first_name string
+	last_name  string
+	age        int
+	salary     float64
 }
 
 func main() {
 
-	v := vertex{6, 15, 36.5}
-	v.X = 50
-	fmt.Println(v)
+	v := vertex{"adhanom", "kidanmariam", 26, 15000}
+	v.salary = 10000
+	fmt.Println(v.first_name)
+	fmt.Println(v.age)
 
 }
