@@ -34,4 +34,15 @@ func main() {
 		fmt.Printf("your os is %v", os)
 
 	}
+	t := time.Now()
+	switch {
+	case t.Hour() < 12:
+		fmt.Println("good morning ")
+	case t.Hour() < 15:
+		fmt.Println("good afternoon")
+	case t.Hour() < 17:
+		fmt.Println("night time")
+	default:
+		fmt.Println("the time have pass ")
+	}
 }
