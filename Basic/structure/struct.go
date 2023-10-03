@@ -2,12 +2,16 @@ package main
 
 import "fmt"
 
+type vertex struct {
+	X int
+	y int
+	z float64
+}
+
 func main() {
-	type vertex struct {
-		x int
-		y int
-		z float64
-	}
-	fmt.Println(vertex{6, 3, 36.5})
+
+	v := vertex{6, 15, 36.5}
+	v.X = 50
+	fmt.Println(v)
 
 }
